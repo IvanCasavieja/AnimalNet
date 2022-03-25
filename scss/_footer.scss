@@ -1,0 +1,146 @@
+footer {
+    background: #202020;
+    width: 100%;
+    margin-top: 100px;
+    color: #c7c7c7;
+    .contenedor-total {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 20px 20px 0;
+        .contenedor-footer {
+            display: flex;
+            justify-content: space-between;
+            @media screen and (max-width: 1100px) {
+                flex-wrap: wrap;
+            }
+            .lainfo {
+                max-width: 400px;
+                @media screen and (max-width: 1100px) {
+                    width: 100%;
+                    margin-left: 30px;
+                }
+                h1 {
+                    font-size: 22px;
+                }
+                p {
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+            }
+            .lasredes {
+                max-width: 400px;
+                @media screen and (max-width: 1100px) {
+                    margin-top: 40px;
+                    margin-left: 30px;
+                }
+                h1 {
+                    font-size: 22px;
+                }
+                .red {
+                    margin-top: 20px;
+                    display: flex;
+                    img {
+                        object-fit: cover;
+                        width: 36px;
+                        height: 36px;
+                        background-color: white;
+                    }
+                    a {
+                        margin-top: 11px;
+                        margin-left: 10px;
+                        text-decoration: none;
+                        background: none;
+                        color: white;
+                        transition: 0.3s;
+                    }
+                    a:hover {
+                        color: wheat;
+                        background: none;
+                    }
+                }
+            }
+            .asociados {
+                max-width: 400px;
+                @media screen and (max-width: 1100px) {
+                    margin-left: 30px;
+                    margin-top: 40px;
+                }
+                h1 {
+                    font-size: 22px;
+                }
+                .info-asociados {
+                    margin-top: 20px;
+                    display: flex;
+                    img {
+                        width: 36px;
+                        height: 36px;
+                    }
+                    a {
+                        margin-left: 20px;
+                        margin-top: 11px;
+                        max-width: 140px;
+                        text-decoration: none;
+                        background: none;
+                        color: white;
+                        transition: 0.3s;
+                    }
+                    a:hover {
+                        color: wheat;
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+    .contenedor-footercopy {
+        max-width: 100%;
+        background: #101010;
+        padding: 5px;
+        .footer {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            @media screen and (max-width: 900px) {
+                display: block;
+            }
+            .copy {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: 0.3s;
+                    margin-left: 15px;
+                    @media screen and (max-width: 900px) {
+                        display: table;
+                        margin: 20px auto;
+                    }
+                }
+
+                a:hover {
+                    color: wheat;
+                    background: none;
+                }
+            }
+            .info {
+                @media screen and (max-width: 900px) {
+                    text-align: center;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: 0.3s;
+                    margin-left: 15px;
+                    @media screen and (max-width: 900px) {
+                        display: inline-table;
+                    }
+                }
+                .info a:hover {
+                    color: wheat;
+                    background: none;
+                }
+            }
+        }
+    }
+}

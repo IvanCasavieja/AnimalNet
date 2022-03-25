@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Author" content="Ivan Casavieja">
+    <meta name="description" content="AnimalNet como bien dice su nombre es una red de para conectar animales de todo el pais con personas que buscan darles hogar. A su vez, busca implementar un mercado de compra de productos para animales, para poder ayudar a los refugios.">
+    <meta name="Keywords" content="adopcion de perros y gatos, adoptar animales, adopciones, animales sin hogar, veterinarias, tienda para perros y gatos, tienda para animales, comprar productos para perros y gatos">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="https://kit.fontawesome.com/fcf6a0acd3.js" crossorigin="anonymous"></script>
+    <title>AnimalNet</title>
+</head>
+
+<body>
+    <!-- menu de navegacion -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="/index.html" class="enlace">
+                <img src="/imagenes/imagenlogo.png" alt="" class="logo">
+            </a>
+            <ul>
+                <li><a class="active" href="/index.html">Mi Cuenta</a></li>
+                <li><a href="/paginas/adoptanos.html">Adoptanos</a></li>
+                <li><a href="/paginas/tienda.html">Tienda</a></li>
+                <li><a href="/paginas/pasarela.html">Pasarela</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+
+    <!--formulario de registro-->
+
+    <form class="formulario" action="">
+
+        <h1>Unete a AnimalNet</h1>
+        <div>
+            <input type="text" name="nombre" id="nombre" required>
+            <label>Nombre</label>
+        </div>
+        <div>
+            <input type="text" name="apellidos" id="apellidos" required>
+            <label> Apellido</label>
+        </div>
+        <div>
+            <input type="email" name="email" id="email" required>
+            <label>Email</label>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" required>
+            <label>Contraseña</label>
+        </div>
+        <div>
+            <input type="password" name="password1" id="password1" required>
+            <label>Repite la contraseña</label>
+        </div>
+
+        <button type="submit" name="registrar" id="registrar">Registrarse</button>
+
+        <a href="/paginas/login.html">¿Ya tienes cuenta?</a>
+        <br>
+        <a href="/paginas/recuperarcontra.html">¿Has olvidado tu contraseña?</a>
+
+    </form>
+    <br>
+    <br>
+
+    <!--el footer pa-->
+
+    <footer>
+
+        <div class="contenedor-total">
+
+            <div class="contenedor-footer">
+
+                <div class="lainfo">
+                    <h1>Informacion</h1>
+                    <p>AnimalNet es una pagina dedicada a la adopción de animales sin hogar.
+                       Nos asociamos con veterinarias, para que puedan vender productos por la red y 
+                       así lograr sustentar los diferentes refugios.
+                    </p>
+                </div>
+
+                <div class="lasredes">
+
+                    <h1>Contacto</h1>
+
+                    <div class="red">
+                        <img src="/imagenes/red1.png">
+                        <a href="#">Facebook</a>
+                    </div>
+
+                    <div class="red">
+                        <img src="/imagenes/red2.png">
+                        <a href="#">Instagram</a>
+                    </div>
+
+                    <div class="red">
+                        <img src="/imagenes/red3.jpg">
+                        <a href="#">WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="asociados">
+                    <h1>Asociados</h1>
+
+                    <div class="info-asociados">
+                        <img src="/imagenes/vet1.jpg">
+                        <a href="#">Veterinaria lalala</a>
+                    </div>
+
+                    <div class="info-asociados">
+                        <img
+                            src="/imagenes/vet2.jpg">
+                        <a href="#">Veterinaria lalalo</a>
+                    </div>
+
+                    <div class="info-asociados">
+                        <img src="/imagenes/vet3.jpg">
+                        <a href="#">Veterinaria lalito</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contenedor-footercopy">
+
+            <div class="footer">
+
+                <div class="copy">
+                    <a href="#">Copyright 2022</a>
+                </div>
+
+                <div class="info">
+                    <a href="#">Pagos</a>
+                    <a href="#">Condiciones de uso</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
