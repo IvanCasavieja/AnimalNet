@@ -31,7 +31,8 @@ body {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 5px 20px;
-    margin-top: 100px;
+    margin-top: 55px;
+    margin-bottom: -100px;
 
     h1 {
         color: white;
@@ -44,8 +45,8 @@ body {
     }
     input {
         width: 100%;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         padding: 5px;
         background: none;
         color: white;
@@ -60,18 +61,18 @@ body {
     label {
         position: absolute;
         left: 0;
-        top: 25px;
+        top: 15px;
         pointer-events: none;
         color: white;
         transition: 0.5s;
     }
     input:focus ~ label {
-        top: -8px;
-        font-size: 15px;
+        top: -5px;
+        font-size: 14px;
     }
     input:valid ~ label {
-        top: -8px;
-        font-size: 15px;
+        top: -5px;
+        font-size: 14px;
     }
     input:focus,
     input:valid {
@@ -81,8 +82,9 @@ body {
         overflow: hidden;
         display: table;
         margin: auto;
-        margin-bottom: 20px;
-        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        padding: 8px;
         border-radius: 6px;
         transition: 0.3s;
         color: black;
@@ -96,16 +98,14 @@ body {
     }
     a {
         display: table;
-        margin: 2px auto;
+        margin: 0px auto;
         text-align: center;
         text-decoration: none;
         color: $colorlinks;
-
         transition: 0.3s;
     }
     a:hover {
         color: white;
-
         background: none;
     }
     @media (max-width: 580px) {
