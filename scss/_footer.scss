@@ -1,8 +1,10 @@
+@import "variables";
+
 footer {
     background: #202020;
     width: 100%;
     margin-top: 100px;
-    color: #c7c7c7;
+    color: $colorlinks;
     .contenedor-total {
         width: 100%;
         max-width: 1200px;
@@ -51,11 +53,11 @@ footer {
                         margin-left: 10px;
                         text-decoration: none;
                         background: none;
-                        color: white;
+                        color: $colorlinks;
                         transition: 0.3s;
                     }
                     a:hover {
-                        color: wheat;
+                        color: white;
                         background: none;
                     }
                 }
@@ -82,11 +84,11 @@ footer {
                         max-width: 140px;
                         text-decoration: none;
                         background: none;
-                        color: white;
+                        color: $colorlinks;
                         transition: 0.3s;
                     }
                     a:hover {
-                        color: wheat;
+                        color: white;
                         background: none;
                     }
                 }
@@ -109,7 +111,7 @@ footer {
             .copy {
                 a {
                     text-decoration: none;
-                    color: white;
+                    color: $colorlinks;
                     transition: 0.3s;
                     margin-left: 15px;
                     @media screen and (max-width: 900px) {
@@ -119,7 +121,7 @@ footer {
                 }
 
                 a:hover {
-                    color: wheat;
+                    color: white;
                     background: none;
                 }
             }
@@ -129,15 +131,15 @@ footer {
                 }
                 a {
                     text-decoration: none;
-                    color: white;
+                    color: $colorlinks;
                     transition: 0.3s;
                     margin-left: 15px;
                     @media screen and (max-width: 900px) {
                         display: inline-table;
                     }
                 }
-                .info a:hover {
-                    color: wheat;
+                a:hover {
+                    color: white;
                     background: none;
                 }
             }

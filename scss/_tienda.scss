@@ -1,3 +1,5 @@
+@import "variables";
+
 .contenedorproductos {
     display: table;
     text-align: center;
@@ -18,7 +20,7 @@
         overflow: hidden;
         margin-left: 20px;
         margin-top: 20px;
-        background: linear-gradient(to bottom, blue, white);
+        background: $colorhover;
         .imagenproduct {
             object-fit: cover;
             width: 100%px;
