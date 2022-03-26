@@ -1,4 +1,4 @@
-@import"variables";
+@import "variables";
 
 * {
     margin: 0;
@@ -76,7 +76,7 @@ body {
     }
     input:focus,
     input:valid {
-    border-bottom: 1px solid $colorhover;
+        border-bottom: 1px solid $colorhover;
     }
     button {
         overflow: hidden;
@@ -89,7 +89,6 @@ body {
         transition: 0.3s;
         color: black;
         background: $colorlinks;
-
     }
     button:hover {
         cursor: pointer;
@@ -120,6 +119,5 @@ body {
 @import "adoptanos";
 @import "tienda";
 @import "pasarela";
-
 
 @import "footer";

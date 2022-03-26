@@ -1,11 +1,11 @@
-@import"variables";
+@import "variables";
 
 nav {
     background: #3f1d5fde;
     height: 61px;
     width: 100%;
     position: fixed;
-    top:0px;
+    top: 0px;
     z-index: 1001;
     .enlace {
         position: absolute;
@@ -88,8 +88,9 @@ nav {
     #check {
         display: none;
     }
-    #check:checked ~ ul{
-        @media (max-width: 840px){
-            left:0;}
+    #check:checked ~ ul {
+        @media (max-width: 840px) {
+            left: 0;
+        }
     }
 }
